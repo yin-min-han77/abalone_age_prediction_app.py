@@ -157,3 +157,4 @@ else:
         st.success(f"### 🐚 Predicted Rings: {prediction:.2f}")
 
         st.info(f"**Estimated Age:** approx. {prediction + 1.5:.1f} years old")
+
