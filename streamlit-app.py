@@ -10,8 +10,6 @@ st.set_page_config(
 )
 
 # --- 2. THEME & BACKGROUND IMAGE SETUP ---
-# We use a public URL for an underwater image.
-# We also force the text color to be dark so it shows up on the light glass panels.
 page_bg_img = """
 <style>
 /* 1. Main Background Image */
@@ -157,4 +155,5 @@ else:
         
         # Result Display
         st.success(f"### 🐚 Predicted Rings: {prediction:.2f}")
+
         st.info(f"**Estimated Age:** approx. {prediction + 1.5:.1f} years old")
